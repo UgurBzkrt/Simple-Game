@@ -15,7 +15,7 @@ while True:
         cevap = input("nKelimeyi Tahmin Edin: ")
         
         if cevap == kelime:
-            print("Kazandýnýz!nn")
+            print("KazandÄ±nÄ±z!nn")
             break
         else:
             while True:
@@ -30,7 +30,7 @@ while True:
             print("Kaybettiniz!nn")
             break
         
-    if not "y" == input("Tekrar Oynamak Ýstermisiniz? (y/n): "):
+    if not "y" == input("Tekrar Oynamak ister misiniz? (y/n): "):
         break
 
 
